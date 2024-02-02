@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "baseUrl": ".",
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true
+    },
+    "target": "es2021",
+    "keepClassNames": true,
+    "transform": {
+      "decoratorMetadata": true,
+      "legacyDecorator": true
+    },
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  },
+  "module": {
+    "strict": true,
+    "type": "es6"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+
+    "target": "es2021",
+    "module": "es2020",
+    "moduleResolution": "node",
+
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "paths": {
+      "#/*": ["./src/*"]
+    },
+  }
+}
